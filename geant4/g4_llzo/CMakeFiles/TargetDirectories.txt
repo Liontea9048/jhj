@@ -1,0 +1,7 @@
+/Users/liontea/Desktop/JHJ/geant4/g4_llzo/CMakeFiles/g4_llzo.dir
+/Users/liontea/Desktop/JHJ/geant4/g4_llzo/CMakeFiles/edit_cache.dir
+/Users/liontea/Desktop/JHJ/geant4/g4_llzo/CMakeFiles/rebuild_cache.dir
+/Users/liontea/Desktop/JHJ/geant4/g4_llzo/CMakeFiles/list_install_components.dir
+/Users/liontea/Desktop/JHJ/geant4/g4_llzo/CMakeFiles/install.dir
+/Users/liontea/Desktop/JHJ/geant4/g4_llzo/CMakeFiles/install/local.dir
+/Users/liontea/Desktop/JHJ/geant4/g4_llzo/CMakeFiles/install/strip.dir

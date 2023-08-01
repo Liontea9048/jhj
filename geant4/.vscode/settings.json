@@ -1,0 +1,4 @@
+{
+    "cmake.sourceDirectory": "/Users/liontea/Desktop/JHJ/geant4/g4_minimal-main",
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools"
+}

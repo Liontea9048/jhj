@@ -1,0 +1,33 @@
+riso reader
+c cell card                                                                     
+1  1   -1.84000 -1    imp:p=1  
+2  1   -1.84000 1 -2  imp:p=1  
+3  1   -1.84000 2 -3  imp:p=1  
+4  1   -1.84000 -4 5  imp:p=1
+5  1   -1.84000  -5   imp:p=1
+6  1   -1.84000 -6 7  imp:p=1
+7  1   -1.84000 -8    imp:p=1 
+8  1   -1.84000 -9    imp:p=1 
+9  1   -1.84000 -10   imp:p=1
+10 1   -1.84000 -11   imp:p=1
+11 1   -1.84000 -12   imp:p=1
+12 0    13  imp:p=0
+
+c surface card                                                                  
+1  rpp -20 20 -10 10 0 15 
+2  rcc 0 0 15 0 0 2 10  $sample holder
+3  rcc 5 0 20 0 0 10 3  $PMT
+4  rcc -5 0 20 0 0 10 5  $ Beta irradiator
+5  rcc -5 0 20  0 0 0.5  1.5  $ Berwindow
+6  rcc -5 0 20  0 0 6    5   $original lead
+7  rcc -5 0 20  0 0 6  3   $subtract rcc
+8  rcc -5 0 20  0 0 4  5    $ upper lead
+9  rcc  5 0 19  0 0 0.5  1.5  $ detectionfilter
+10 rcc  5 0 17.5  0 0 0.25  1.5   $OSL sample
+11 trc  0.5 0 20 2.121 0 -2.121 1 0.5     $ IR led
+12 trc  9.5 0 20 -2.121 0 -2.121 1 0.5  $ Blue led
+13 rpp -1000 1000 -1000 1000 -1000 1000 $VOID
+
+mode  p
+c data card                                                                     
+m1      4009    -1.000000  $ Beryllium  density -1.84000     

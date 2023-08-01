@@ -1,0 +1,27 @@
+RI tank w/ I-131 1MBq
+c cell card
+1  0   -1 2 3 4 -5 imp:n=1 $neutroncylinder
+2  0    1 -2 3 4 -5  imp:n=1 vol=0.0785 $tallycylinder
+3  1  -3.21  1 2 -3 4 -5  imp:n=1 $silicon
+4  0  1 2 3 -4 -5  imp:n=1 vol=0.0785 $tallycylinder
+5  0  1 2 3 4 -5  imp:n=1 $world
+6  0  5  imp:n=0 $void
+
+c surface card
+1  rcc 0 0 0 0 0 1e-1 5e-1 $neutronsource
+2  rcc 0 0 5 0 0 1e-1 5e-1  $firsttally
+3  rcc 0 0 10 0 0 5e-2 5e-1 $silicon
+4  rcc 0 0 15 0 0 1e-1 5e-1  $secondtally
+5  rpp -1 1 -1 1 -1 20 $world
+
+c data card
+mode n
+sdef pos=0 0 0 rad=d1 par=1 erg=0.025 vec = 0 0 1 axs= 0 0 1 $disk source
+si1  0 0.5 $rad
+sp1  -21 1 $rad
+f14:n 2
+f24:n 4
+m1 6000 -0.000124 $silicon
+   14000 -0.700453
+nps 1e6
+print

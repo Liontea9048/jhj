@@ -1,0 +1,3 @@
+/Users/liontea/Desktop/JHJ/geant4/build/CMakeFiles/g4_minimal.dir
+/Users/liontea/Desktop/JHJ/geant4/build/CMakeFiles/edit_cache.dir
+/Users/liontea/Desktop/JHJ/geant4/build/CMakeFiles/rebuild_cache.dir
